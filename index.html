@@ -1,29 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Server MOTD</title>
     <style>
         body {
             background-color: #1f1f1f;
-            color: #fff;
+            color: #d3d3d3; /* Bright gray text */
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
             padding: 20px;
+            text-align: center;
         }
         h1 {
             color: #00bfff;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .content {
+            padding: 30px;
+            text-align: left;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #00ffcc;
+            font-size: 1.8em;
+            border-bottom: 2px solid #00bfff;
+            padding-bottom: 10px;
         }
         ul {
             list-style: square;
+            padding-left: 20px;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #00bfff;
+        }
+        footer {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+            color: #ccc;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to my Funky Server!</h1>
-    <p>Please follow these rules:</p>
-    <ul>
-        <li>Listen to mods/admins</li>
-        <li>please dont't try and crash the server on purpose k thx</li>
-    </ul>
-    <p><a href="null" style="color: #00ffcc;">null</a></p>
+    <header>
+        <h1>Welcome to Funky Server!</h1>
+    </header>
+
+    <div class="content">
+        <!-- Server Rules Section -->
+        <div class="section">
+            <h2>Server Rules</h2>
+            <ul>
+                <li>Listen to admins and mods</li>
+                <li>No server crashing or exploits</li>
+                <li>Respect fellow players</li>
+                <li>Keep the chat friendly and clean</li>
+                <li>Have fun and enjoy the game!</li>
+            </ul>
+        </div>
+
+        <!-- Server Information Section -->
+        <div class="section">
+            <h2>Server Information</h2>
+            <p>This is a sandbox casual server where you are free to do as you wish, within reason. Build, explore, and interact with others, but remember to respect the rules and the enjoyment of fellow players!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Funky Server. All rights reserved.</p>
+    </footer>
 </body>
 </html>
